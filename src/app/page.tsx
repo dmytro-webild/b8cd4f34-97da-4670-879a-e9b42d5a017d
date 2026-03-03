@@ -76,7 +76,7 @@ export default function LandingPage() {
               id: "3",              name: "Premium Salmon Fillet",              price: "$12.99/lb",              variant: "Wild Caught • Fresh",              imageSrc: "http://img.b2bpic.net/free-photo/pieces-raw-steak-from-fresh-salmon-lying-ice-counter_169016-36752.jpg",              imageAlt: "Fresh salmon fillet"
             },
             {
-              id: "4",              name: "Organic Whole Milk",              price: "$5.49",              variant: "Non-GMO • Farm Fresh • 1L",              imageSrc: "http://img.b2bpic.net/free-photo/dairy-products_114579-8756.jpg?_wi=1",              imageAlt: "Fresh organic milk"
+              id: "4",              name: "Organic Whole Milk",              price: "$5.49",              variant: "Non-GMO • Farm Fresh • 1L",              imageSrc: "http://img.b2bpic.net/free-photo/dairy-products_114579-8756.jpg",              imageAlt: "Fresh organic milk"
             },
             {
               id: "5",              name: "Artisan Sourdough Bread",              price: "$6.99",              variant: "Baked Daily • Local Bakery",              imageSrc: "http://img.b2bpic.net/free-photo/fresh-bread-wooden-spoon-old-wooden-background_169016-3149.jpg",              imageAlt: "Fresh sourdough bread"
@@ -99,7 +99,7 @@ export default function LandingPage() {
               title: "Fruits & Vegetables",              description: "Fresh organic produce delivered daily from local farms",              imageSrc: "http://img.b2bpic.net/free-photo/baskets-with-exotic-fruits-supermarket-showcase_169016-36902.jpg",              imageAlt: "Fresh fruits and vegetables",              buttonIcon: ShoppingCart
             },
             {
-              title: "Dairy & Eggs",              description: "Premium local and organic dairy products, fresh eggs",              imageSrc: "http://img.b2bpic.net/free-photo/dairy-products_114579-8756.jpg?_wi=2",              imageAlt: "Dairy products",              buttonIcon: ShoppingCart
+              title: "Dairy & Eggs",              description: "Premium local and organic dairy products, fresh eggs",              imageSrc: "http://img.b2bpic.net/free-photo/dairy-products_114579-8756.jpg",              imageAlt: "Dairy products",              buttonIcon: ShoppingCart
             },
             {
               title: "Meat & Seafood",              description: "Premium cuts, wild-caught fish, sustainable sourcing",              imageSrc: "http://img.b2bpic.net/free-photo/shop-workers-posing-counter_7502-4771.jpg",              imageAlt: "Fresh meat and seafood",              buttonIcon: ShoppingCart
@@ -126,16 +126,16 @@ export default function LandingPage() {
           animationType="slide-up"
           metrics={[
             {
-              id: "1",              value: "30% OFF",              title: "Organic Produce",              description: "All organic fruits and vegetables this week",              imageSrc: "http://img.b2bpic.net/free-vector/autumn-sale-banners_23-2147888500.jpg?_wi=1",              imageAlt: "sale banner discount promotion special offer seasonal sale"
+              id: "1",              value: "30% OFF",              title: "Organic Produce",              description: "All organic fruits and vegetables this week",              imageSrc: "http://img.b2bpic.net/free-vector/autumn-sale-banners_23-2147888500.jpg",              imageAlt: "sale banner discount promotion special offer seasonal sale"
             },
             {
-              id: "2",              value: "Buy 2 Get 1",              title: "Local Dairy",              description: "Free item on all local dairy products",              imageSrc: "http://img.b2bpic.net/free-vector/autumn-sale-banners_23-2147888500.jpg?_wi=2",              imageAlt: "sale banner discount promotion special offer seasonal sale"
+              id: "2",              value: "Buy 2 Get 1",              title: "Local Dairy",              description: "Free item on all local dairy products",              imageSrc: "http://img.b2bpic.net/free-vector/autumn-sale-banners_23-2147888500.jpg",              imageAlt: "sale banner discount promotion special offer seasonal sale"
             },
             {
-              id: "3",              value: "$3.99/lb",              title: "Premium Salmon",              description: "Wild-caught salmon special pricing",              imageSrc: "http://img.b2bpic.net/free-vector/autumn-sale-banners_23-2147888500.jpg?_wi=3",              imageAlt: "sale banner discount promotion special offer seasonal sale"
+              id: "3",              value: "$3.99/lb",              title: "Premium Salmon",              description: "Wild-caught salmon special pricing",              imageSrc: "http://img.b2bpic.net/free-vector/autumn-sale-banners_23-2147888500.jpg",              imageAlt: "sale banner discount promotion special offer seasonal sale"
             },
             {
-              id: "4",              value: "$4.99",              title: "Fresh Bread",              description: "Artisan baked goods daily special",              imageSrc: "http://img.b2bpic.net/free-vector/autumn-sale-banners_23-2147888500.jpg?_wi=4",              imageAlt: "sale banner discount promotion special offer seasonal sale"
+              id: "4",              value: "$4.99",              title: "Fresh Bread",              description: "Artisan baked goods daily special",              imageSrc: "http://img.b2bpic.net/free-vector/autumn-sale-banners_23-2147888500.jpg",              imageAlt: "sale banner discount promotion special offer seasonal sale"
             }
           ]}
         />
@@ -154,6 +154,7 @@ export default function LandingPage() {
           imageSrc="http://img.b2bpic.net/free-photo/vegan-shop-client-buys-organic-food_482257-76719.jpg"
           imageAlt="FreshMart Grocery store interior"
           mediaAnimation="slide-up"
+          metricsAnimation="slide-up"
           useInvertedBackground={false}
         />
       </div>
